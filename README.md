@@ -49,11 +49,21 @@ pip install -r requirements.txt
 
 #### Example Visualizations:
 
-![Feature Correlation](images/corr_matrix.png)
+<div align="center">
+    <h4>Feature Correlation</h4>
+    <img src="images/feature_correlation.png" alt="Feature Correlation" width="60%" height = "50%">
+</div>
 
-![Price Distribution](images/price_distribution.png)
+<div align="center">
+    <h4>Price Distribution</h4>
+    <img src="images/price_distribution.png" alt="Price Distribution" width="60%" height = "50%">
+</div>
 
-![Pair Plot](images/pairplot.png)
+<div align="center">
+    <h4>Pair Plot</h4>
+    <img src="images/pairplot.png" alt="Pair Plot" width="60%" height = "50%">
+</div>
+
 
 ### 📊 Model Training
 
