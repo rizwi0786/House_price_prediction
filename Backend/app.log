@@ -1,0 +1,68 @@
+2025-03-14 20:51:04,421 - INFO - Model loaded successfully.
+2025-03-14 20:51:04,515 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-14 20:51:04,515 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 20:51:04,541 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-14 20:51:10,519 - INFO - Model loaded successfully.
+2025-03-14 20:51:12,664 - WARNING -  * Debugger is active!
+2025-03-14 20:51:12,728 - INFO -  * Debugger PIN: 104-634-934
+2025-03-14 20:51:14,195 - INFO - Prediction made successfully: [0.7473676]
+2025-03-14 20:51:14,202 - INFO - 127.0.0.1 - - [14/Mar/2025 20:51:14] "POST /predict HTTP/1.1" 200 -
+2025-03-14 20:58:48,060 - INFO - 127.0.0.1 - - [14/Mar/2025 20:58:48] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 20:58:51,109 - INFO - 127.0.0.1 - - [14/Mar/2025 20:58:51] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 20:58:51,819 - INFO - 127.0.0.1 - - [14/Mar/2025 20:58:51] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 20:58:52,264 - INFO - 127.0.0.1 - - [14/Mar/2025 20:58:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:00:02,171 - INFO -  * Detected change in 'C:\\Users\\msriz\\Desktop\\Refactored_Py_DS_ML_Bootcamp-master\\11-Linear-Regression\\app.py', reloading
+2025-03-14 21:00:02,174 - INFO -  * Detected change in 'C:\\Users\\msriz\\Desktop\\Refactored_Py_DS_ML_Bootcamp-master\\11-Linear-Regression\\app.py', reloading
+2025-03-14 21:00:02,174 - INFO -  * Detected change in 'C:\\Users\\msriz\\Desktop\\Refactored_Py_DS_ML_Bootcamp-master\\11-Linear-Regression\\app.py', reloading
+2025-03-14 21:00:04,353 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-14 21:01:06,936 - INFO - Model loaded successfully.
+2025-03-14 21:01:07,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-14 21:01:07,020 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 21:01:07,044 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-14 21:01:10,361 - INFO - Model loaded successfully.
+2025-03-14 21:01:10,375 - WARNING -  * Debugger is active!
+2025-03-14 21:01:10,384 - INFO -  * Debugger PIN: 104-634-934
+2025-03-14 21:01:13,993 - INFO - Prediction made successfully: [0.7473676]
+2025-03-14 21:01:13,998 - INFO - 127.0.0.1 - - [14/Mar/2025 21:01:13] "POST /predict HTTP/1.1" 200 -
+2025-03-14 21:01:36,764 - INFO - 127.0.0.1 - - [14/Mar/2025 21:01:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:01:36,774 - ERROR - Error in prediction: [21:01:36] C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-08cbc0333d8d4aae1-1\xgboost\xgboost-ci-windows\src\data\array_interface.h:499: Unicode-3 is not supported.
+2025-03-14 21:01:36,774 - INFO - 127.0.0.1 - - [14/Mar/2025 21:01:36] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-14 21:01:55,657 - INFO - 127.0.0.1 - - [14/Mar/2025 21:01:55] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:01:55,663 - ERROR - Error in prediction: [21:01:55] C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-08cbc0333d8d4aae1-1\xgboost\xgboost-ci-windows\src\data\array_interface.h:499: Unicode-3 is not supported.
+2025-03-14 21:01:55,664 - INFO - 127.0.0.1 - - [14/Mar/2025 21:01:55] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-14 21:02:44,991 - INFO - 127.0.0.1 - - [14/Mar/2025 21:02:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:02:44,996 - ERROR - Error in prediction: [21:02:44] C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-08cbc0333d8d4aae1-1\xgboost\xgboost-ci-windows\src\data\array_interface.h:499: Unicode-3 is not supported.
+2025-03-14 21:02:44,997 - INFO - 127.0.0.1 - - [14/Mar/2025 21:02:44] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-14 21:03:52,259 - INFO - 127.0.0.1 - - [14/Mar/2025 21:03:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:03:52,265 - ERROR - Error in prediction: [21:03:52] C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-08cbc0333d8d4aae1-1\xgboost\xgboost-ci-windows\src\data\array_interface.h:499: Unicode-3 is not supported.
+2025-03-14 21:03:52,265 - INFO - 127.0.0.1 - - [14/Mar/2025 21:03:52] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-14 21:08:51,555 - INFO - 127.0.0.1 - - [14/Mar/2025 21:08:51] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:08:51,572 - INFO - Prediction made successfully: [4.0381637]
+2025-03-14 21:08:51,573 - INFO - 127.0.0.1 - - [14/Mar/2025 21:08:51] "POST /predict HTTP/1.1" 200 -
+2025-03-14 21:11:06,527 - INFO - 127.0.0.1 - - [14/Mar/2025 21:11:06] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:11:06,540 - INFO - Prediction made successfully: [4.0381637]
+2025-03-14 21:11:06,541 - INFO - 127.0.0.1 - - [14/Mar/2025 21:11:06] "POST /predict HTTP/1.1" 200 -
+2025-03-14 21:12:29,634 - INFO - 127.0.0.1 - - [14/Mar/2025 21:12:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:12:29,644 - INFO - Prediction made successfully: [4.0381637]
+2025-03-14 21:12:29,645 - INFO - 127.0.0.1 - - [14/Mar/2025 21:12:29] "POST /predict HTTP/1.1" 200 -
+2025-03-14 21:25:36,711 - INFO - 127.0.0.1 - - [14/Mar/2025 21:25:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:25:36,735 - ERROR - Error in prediction: [21:25:36] C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-08cbc0333d8d4aae1-1\xgboost\xgboost-ci-windows\src\data\array_interface.h:499: Unicode-3 is not supported.
+2025-03-14 21:25:36,738 - INFO - 127.0.0.1 - - [14/Mar/2025 21:25:36] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-14 21:26:25,014 - INFO - 127.0.0.1 - - [14/Mar/2025 21:26:25] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:26:25,022 - ERROR - Error in prediction: [21:26:25] C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-08cbc0333d8d4aae1-1\xgboost\xgboost-ci-windows\src\data\array_interface.h:499: Unicode-3 is not supported.
+2025-03-14 21:26:25,022 - INFO - 127.0.0.1 - - [14/Mar/2025 21:26:25] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-14 21:27:53,173 - INFO - 127.0.0.1 - - [14/Mar/2025 21:27:53] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:27:53,198 - INFO - Prediction made successfully: [4.0381637]
+2025-03-14 21:27:53,199 - INFO - 127.0.0.1 - - [14/Mar/2025 21:27:53] "POST /predict HTTP/1.1" 200 -
+2025-03-14 21:29:15,987 - INFO - 127.0.0.1 - - [14/Mar/2025 21:29:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-14 21:29:16,003 - INFO - Prediction made successfully: [4.0381637]
+2025-03-14 21:29:16,005 - INFO - 127.0.0.1 - - [14/Mar/2025 21:29:16] "POST /predict HTTP/1.1" 200 -
+2025-03-14 22:11:47,952 - INFO -  * Detected change in 'C:\\Users\\msriz\\Desktop\\Refactored_Py_DS_ML_Bootcamp-master\\11-Linear-Regression\\Backend\\app.py', reloading
+2025-03-14 22:11:47,956 - INFO -  * Detected change in 'C:\\Users\\msriz\\Desktop\\Refactored_Py_DS_ML_Bootcamp-master\\11-Linear-Regression\\Backend\\app.py', reloading
+2025-03-14 22:11:47,956 - INFO -  * Detected change in 'C:\\Users\\msriz\\Desktop\\Refactored_Py_DS_ML_Bootcamp-master\\11-Linear-Regression\\Backend\\app.py', reloading
+2025-03-14 22:11:49,552 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-14 22:11:54,134 - INFO - Model loaded successfully.
+2025-03-14 22:11:54,152 - WARNING -  * Debugger is active!
+2025-03-14 22:11:54,161 - INFO -  * Debugger PIN: 104-634-934
