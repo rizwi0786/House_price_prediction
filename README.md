@@ -1,18 +1,19 @@
-# House price prediction
-
+# 🏡 House Price Prediction
 
 ## 📌 Overview
-This project is a **House Price Prediction System** built using **Machine Learning** and deployed via a **Flask API**. The frontend is built using **ReactJS** for user interaction.
+
+This project is a **House Price Prediction System** using **Machine Learning**, deployed via a **Flask API**, and featuring a **ReactJS frontend** for user interaction.
 
 ## 📂 Project Structure
+
 ```
 House-Price-Prediction/
 │── frontend/               # React frontend (UI for user input)
 │── backend/                # Flask API
 │   │── app.py              # Flask application
-│   │── house_price_model.pkl # Trained model
+│   │── house_price_model.pkl # Trained model (XGBoost)
 │── notebooks/              # Jupyter Notebook for model training
-│   │── housing_price_predict.ipynb 
+│   │── housing_price_predict.ipynb
 │── models/                 # Saved models
 │── requirements.txt        # Dependencies
 │── README.md               # Documentation
@@ -23,80 +24,139 @@ House-Price-Prediction/
 ## 🛠 Installation & Setup
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone <repository-url>
 cd House-Price-Prediction
 ```
 
 ### 2️⃣ Set Up Virtual Environment & Install Dependencies
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Train the Model
-Run the **Jupyter Notebook (`housing_price_predict.ipynb`)** to:
-- Load and preprocess the dataset.
-- Train a regression model.
-- Save the trained model as `house_price_model.pkl`.
+---
+
+## 🔄 Process of Work
+
+### 📊 Model Training
+
+1. **Data Preprocessing**
+   - Handle missing values, feature scaling, and encoding categorical variables.
+   - Perform feature engineering to improve model performance.
+2. **Model Selection**
+   - Tested multiple regression models:
+     ```python
+     models = {
+        'Ridge': Ridge(alpha=1.0, random_state=42),
+        'Lasso': Lasso(alpha=0.001, random_state=42),
+        'RandomForest': RandomForestRegressor(n_estimators=100, random_state=42),
+        'XGBoost': xgb.XGBRegressor(n_estimators=100, learning_rate=0.1, random_state=42),
+        'LightGBM': lgb.LGBMRegressor(n_estimators=100, learning_rate=0.1, random_state=42),
+        'LinearRegression': LinearRegression()
+     }
+     ```
+   - Evaluated models based on RMSE, MAE, and R² score.
+   - Selected **XGBoost** as the best model.
+3. **Model Deployment**
+   - Saved the trained model as `house_price_model.pkl`.
 
 ---
 
 ## 🚀 Running the Application
 
 ### 1️⃣ Start the Flask API
-Move to the `backend/` directory and run:
+
+The **`app.py`** file:
+
+- Loads the trained model (`house_price_model.pkl`).
+- Accepts house features via a **POST** request.
+- Predicts the house price and returns a JSON response.
+
+#### Run the API
+
 ```bash
+cd backend/
 python app.py
 ```
-- This will start the API at `http://127.0.0.1:5000/`
 
-### 2️⃣ Test API Endpoint
-You can use **Postman** or `curl` to send a POST request to the `/predict` endpoint:
+- The API will start at **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)**.
+
+#### Test the API
+
+Use **Postman** or `curl` to send a request:
+
 ```bash
 curl -X POST http://127.0.0.1:5000/predict \
 -H "Content-Type: application/json" \
--d '{"features": [2.3, 1.5, 2.5, 3, 3.5, 1.5, 36.7783, -119.4179]}'
+-d '{"features": [0.245678, 0.612345, 0.389456, -0.089234, -0.654321, 0.032145, 0.472839, -0.102345, -0.752134, 0.189432, -0.845678]}'
 ```
-- The response will be a JSON object containing the predicted house price.
 
-### 3️⃣ Run the React Frontend
-Move to the `frontend/` directory and install dependencies:
-```bash
-npm install
+##### Expected Response:
+
+```json
+{
+    "predicted_price": [0.7473676204681396]
+}
 ```
-Start the React app:
+
+---
+
+### 2️⃣ Run the React Frontend
+
+The frontend allows users to input house features and get predictions.
+
+#### Run Frontend
+
 ```bash
+cd frontend/
+npm install
 npm start
 ```
-The application will be available at `http://localhost:3000/`
+
+- The UI will be available at **[http://localhost:3000/](http://localhost:3000/)**.
+
+#### Frontend Features:
+
+- **Form Input:** Users enter house features.
+- **Prediction Display:** Shows predicted price from the backend.
+- **Bootstrap Styling:** Responsive UI.
 
 ---
 
 ## 📊 Model Performance
-- **Algorithm Used:** [Specify Model: Linear Regression, Random Forest, XGBoost, etc.]
+
+- **Algorithm Used:** XGBoost
 - **Evaluation Metrics:**
-  - RMSE: [Value]
-  - MAE: [Value]
-  - R² Score: [Value]
+  - RMSE: 0.485181
+  - MAE: 0.327218
+  - R² Score: 0.829419 
 
 ---
 
 ## 🌍 Deployment (Optional)
+
 To deploy the Flask app:
-- **Containerization:** Use Docker (`Dockerfile` included)
-- **Cloud Deployment:** Deploy on AWS, GCP, or Heroku
+
+- **Containerization:** Use Docker (`Dockerfile` included).
+- **Cloud Deployment:** Deploy on AWS, GCP, or Heroku.
 
 ---
 
 ## 🔥 Future Improvements
+
 - Improve model accuracy using advanced feature engineering.
 - Implement authentication in the API.
 - Deploy the project on cloud platforms.
 
 ## 👨‍💻 Contributors
-[Md Shafiullah Quraishi]
+
+Md Shafiullah Quraishi
 
 ---
+
 **Note:** This is a personal project for learning and practice purposes.
+
