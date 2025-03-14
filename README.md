@@ -42,6 +42,17 @@ pip install -r requirements.txt
 
 ## 🔄 Process of Work
 
+### 📊 Exploratory Data Analysis (EDA)
+
+- Data distribution and feature correlation analysis.
+- Visualizing missing values and feature importance.
+
+#### Example Visualizations:
+
+![Feature Correlation](images/feature_correlation.png)
+
+![Price Distribution](images/price_distribution.png)
+
 ### 📊 Model Training
 
 1. **Data Preprocessing**
@@ -125,6 +136,12 @@ npm start
 - **Prediction Display:** Shows predicted price from the backend.
 - **Bootstrap Styling:** Responsive UI.
 
+#### Frontend UI Preview:
+
+![Frontend Form](images/frontend_form.png)
+
+![Prediction Display](images/prediction_display.png)
+
 ---
 
 ## 📊 Model Performance
@@ -133,7 +150,7 @@ npm start
 - **Evaluation Metrics:**
   - RMSE: 0.485181
   - MAE: 0.327218
-  - R² Score: 0.829419 
+  - R² Score: 0.829419
 
 ---
 
