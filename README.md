@@ -173,7 +173,7 @@ npm start
     </div>
     <div style="flex: 1; text-align: center; padding: 10px;">
         <h4>Prediction Display</h4>
-        <img src="images/fron2.png" alt="Prediction Display" style="width: 100%; max-width: 450px; border-radius: 10px;">
+        <img src="images/front2.png" alt="Prediction Display" style="width: 100%; max-width: 450px; border-radius: 10px;">
     </div>
 </div>
 
