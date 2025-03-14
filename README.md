@@ -67,11 +67,11 @@ pip install -r requirements.txt
     <table>
         <tr>
             <td align="center">
-                <img src="images/pairplot.png" alt="Pair Plot" width="60%">
+                <img src="images/pairplot.png" alt="Pair Plot" width="30%">
                 <p><b>Pair Plot</b></p>
             </td>
             <td align="center">
-                <img src="images/pricevsmed.png" alt="Pair Plot" width="60%">
+                <img src="images/pricevsmed.png" alt="Pair Plot" width="70%">
                 <p><b>Pair Plot of Most Correlated Feature</b></p>
             </td>
         </tr>
