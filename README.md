@@ -166,16 +166,17 @@ npm start
 
 #### Frontend UI Preview:
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <div style="flex: 1; text-align: center;">
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1000px; margin: auto;">
+    <div style="flex: 1; text-align: center; padding: 10px;">
         <h4>Frontend Form</h4>
-        <img src="images/fron1.png" alt="Frontend Form" style="width: 100%; max-width: 500px; border-radius: 10px;">
+        <img src="images/fron1.png" alt="Frontend Form" style="width: 100%; max-width: 450px; border-radius: 10px;">
     </div>
-    <div style="flex: 1; text-align: center;">
+    <div style="flex: 1; text-align: center; padding: 10px;">
         <h4>Prediction Display</h4>
-        <img src="images/front2.png" alt="Prediction Display" style="width: 100%; max-width: 500px; border-radius: 10px;">
+        <img src="images/fron2.png" alt="Prediction Display" style="width: 100%; max-width: 450px; border-radius: 10px;">
     </div>
 </div>
+
 
 
 ---
