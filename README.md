@@ -54,7 +54,7 @@ pip install -r requirements.txt
         <tr>
             <td align="center">
                 <h4>Feature Correlation</h4>
-                <img src="images/feature_correlation.png" alt="Feature Correlation" width="50%">
+                <img src="images/corr_matrix.png.png" alt="Feature Correlation" width="50%">
             </td>
             <td align="center">
                 <h4>Price Distribution</h4>
