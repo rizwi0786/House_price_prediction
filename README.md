@@ -50,19 +50,30 @@ pip install -r requirements.txt
 #### Example Visualizations:
 
 <div align="center">
-    <h4>Feature Correlation</h4>
-    <img src="images/feature_correlation.png" alt="Feature Correlation" width="60%" height = "50%">
+    <table>
+        <tr>
+            <td align="center">
+                <h4>Feature Correlation</h4>
+                <img src="images/feature_correlation.png" alt="Feature Correlation" width="50%">
+            </td>
+            <td align="center">
+                <h4>Price Distribution</h4>
+                <img src="images/price_distribution.png" alt="Price Distribution" width="50%">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <h4>Pair Plot</h4>
+                <img src="images/pairplot.png" alt="Pair Plot" width="50%">
+            </td>
+            <td align="center">
+                <h4>Pair Plot of Most Correlated Feature</h4>
+                <img src="images/pricevsmed.png" alt="Pair Plot" width="50%">
+            </td>
+        </tr>
+    </table>
 </div>
 
-<div align="center">
-    <h4>Price Distribution</h4>
-    <img src="images/price_distribution.png" alt="Price Distribution" width="60%" height = "50%">
-</div>
-
-<div align="center">
-    <h4>Pair Plot</h4>
-    <img src="images/pairplot.png" alt="Pair Plot" width="60%" height = "50%">
-</div>
 
 
 ### 📊 Model Training
