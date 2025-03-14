@@ -54,25 +54,24 @@ pip install -r requirements.txt
     <table>
         <tr>
             <td align="center">
-                <img src="images/corr_matrix.png" alt="Feature Correlation" width="40%">
+                <img src="images/corr_matrix.png" alt="Feature Correlation" width="60%">
                 <p><b>Feature Correlation</b></p>
             </td>
             <td align="center">
-                <img src="images/price_distribution.png" alt="Price Distribution" width="40%">
+                <img src="images/price_distribution.png" alt="Price Distribution" width="60%">
                 <p><b>Price Distribution</b></p>
             </td>
         </tr>
     </table>
-
     <h4>Pair Plots</h4>
     <table>
         <tr>
             <td align="center">
-                <img src="images/pairplot.png" alt="Pair Plot" width="40%">
+                <img src="images/pairplot.png" alt="Pair Plot" width="60%">
                 <p><b>Pair Plot</b></p>
             </td>
             <td align="center">
-                <img src="images/pricevsmed.png" alt="Pair Plot" width="40%">
+                <img src="images/pricevsmed.png" alt="Pair Plot" width="60%">
                 <p><b>Pair Plot of Most Correlated Feature</b></p>
             </td>
         </tr>
